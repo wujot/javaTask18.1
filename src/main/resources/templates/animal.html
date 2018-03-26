@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+    <title>Animal</title>
+
+    <link href="../static/style.css" th:href="@{/style.css}" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>Animal: </h1>
+
+    <p th:text="|Name: ${animal.name}|">Name of anmial</p></br>
+    <p th:text="|Type: ${animal.type}|">Type of anmial</p></br>
+    <p th:text="|Description: ${animal.description}|">Description of anmial</p></br>
+
+</body>
+</html>

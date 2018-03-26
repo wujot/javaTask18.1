@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    align-self: center;
+
+}
+
+input {
+    width: 50%;
+    margin: 10px;
+}
+
+input label {
+    margin: 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
